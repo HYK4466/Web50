@@ -1,0 +1,30 @@
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+td {
+	color: white;
+}
+
+#intro {
+	background-color: grey;
+
+}
+
+#usr {
+	background-color: blue;
+}
+
+.title {
+	font-weight: bold;
+}
+
+@media (max-height: 500px) {
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+		padding: 5px;
+	}
+}
