@@ -27,4 +27,13 @@ td {
 		border-collapse: collapse;
 		padding: 5px;
 	}
+<<<<<<< HEAD
+=======
+}
+
+@media print {
+	.printing {
+		display: none;
+	}
+>>>>>>> feature
 }
